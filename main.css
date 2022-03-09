@@ -1,0 +1,42 @@
+.wrapper {
+  background-color: grey;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-flow: row dense;
+  grid-gap: 10px;
+  padding: 10px;
+  grid-auto-rows: minmax(80px, auto);
+}
+.dropzone {
+  background-color: orange;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.square {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+.one {
+  
+}
+.two {
+
+  /* grid-row: 1 / 3; */
+}
+.three {
+  /* grid-column: 1; */
+  grid-row: span 2;
+}
+.four {
+  grid-column: span 1;
+  /* grid-row: 3; */
+}
+.five {
+  grid-column: span 1;
+  /* grid-row: 4; */
+}
+.six {
+  grid-column: span 1;
+  grid-row: span 1;
+}
